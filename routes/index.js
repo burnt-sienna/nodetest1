@@ -7,6 +7,6 @@ router.get('/', function(req, res, next) {
 });
 /* GET Hello World page. */
 router.get('/helloworld', function(req, res) {
-  res.render('helloworld', { title: 'Hello, Stinky World!' });
+  res.render('helloworld', { title: 'Hello, World!' });
 });
 module.exports = router;
